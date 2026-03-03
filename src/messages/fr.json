@@ -1,0 +1,416 @@
+{
+  "metadata": {
+    "title": "FluidAlp – Bureau d'études ventilation et sécurité incendie",
+    "description": "Expert en ventilation, désenfumage et sécurité incendie pour tunnels, métros et espaces confinés. Thônes, Haute-Savoie."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "expertise": "Domaines d'activité",
+    "ventilation": "Ventilation",
+    "fireSafety": "Sécurité incendie",
+    "pollutionThermal": "Pollution & Thermique",
+    "tools": "Outils",
+    "numericalSimulation": "Simulation numérique",
+    "measurements": "Mesures",
+    "projects": "Références",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slides": [
+      {
+        "title": "Bienvenue chez FluidAlp",
+        "subtitle": "Recherche, développement et études dans les domaines de la ventilation et de l'incendie en espaces confinés",
+        "cta": "Découvrir nos expertises",
+        "ctaHref": "/expertises"
+      },
+      {
+        "title": "Des solutions techniques innovantes",
+        "subtitle": "Visant à combiner efficacité et réduction des coûts d'investissement et d'exploitation",
+        "cta": "Voir nos outils",
+        "ctaHref": "/outils"
+      },
+      {
+        "title": "Des projets à l'échelle internationale",
+        "subtitle": "France, Suisse, Chine, Inde, Espagne, Portugal, Grèce — plus de 20 ans d'expertise",
+        "cta": "Nos références",
+        "ctaHref": "/references"
+      }
+    ],
+    "cta_secondary": "Nous contacter"
+  },
+  "featureCards": {
+    "whoWeAre": {
+      "subtitle": "FluidAlp",
+      "title": "Qui sommes nous",
+      "text": "Fondée en 2005 par Eric Casalé, la société FluidAravis, aujourd'hui FluidAlp, a pour domaine la recherche et le développement, les études et l'assistance dans les domaines de la ventilation et de l'incendie, dans les espaces confinés."
+    },
+    "skills": {
+      "subtitle": "FluidAlp",
+      "title": "Compétences",
+      "text": "La polyvalence, tout en étant compétent dans les différents domaines de la ventilation, l'incendie et la pollution et thermiques, c'est ce qui fait de FluidAlp une entreprise à part."
+    },
+    "references": {
+      "subtitle": "FluidAlp",
+      "title": "Références",
+      "text": "Au fil des années FluidAlp est intervenu dans de nombreux projets de grande envergure et a mis à profit tout son savoir faire. N'hésitez pas à consulter les pages \"Références\" pour plus de détails."
+    },
+    "partners": {
+      "subtitle": "FluidAlp",
+      "title": "Nos partenaires",
+      "text": "Depuis de nombreuses années la société FluidAlp travaille avec des partenaires et clients fidèles convaincus de leurs compétences techniques et leur expérience."
+    }
+  },
+  "companyIntro": "FluidAlp est un bureau d'étude indépendant spécialisé dans la ventilation et l'incendie dans tous les espaces confinés tels que les tunnels, les métros mais aussi les centrales hydro-électriques et les voies souterraines. En étroite collaboration avec l'Université de Marseille, la société FluidAlp vous propose des solutions techniques innovantes, visant à combiner efficacité et réduction des coûts d'investissement et d'exploitation.",
+  "stats": {
+    "years": "ans d'expérience",
+    "projects": "projets réalisés",
+    "countries": "pays d'intervention",
+    "certified": "Certifié OPQIBI"
+  },
+  "expertises": {
+    "title": "Nos domaines d'activité",
+    "subtitle": "Un savoir-faire unique en ventilation et sécurité incendie dans les espaces confinés",
+    "ventilation": {
+      "title": "Ventilation",
+      "description": "Études et dimensionnement de systèmes de ventilation pour tunnels routiers, ferroviaires, métros et parkings souterrains."
+    },
+    "fireSafety": {
+      "title": "Sécurité incendie",
+      "description": "Études de désenfumage, simulations d'incendie et assistance à la mise en conformité des ouvrages souterrains."
+    },
+    "pollutionThermal": {
+      "title": "Pollution & Thermique",
+      "description": "Études de dispersion de polluants et analyses thermiques dans les espaces confinés et les environnements industriels."
+    },
+    "learnMore": "En savoir plus"
+  },
+  "recentProjects": {
+    "title": "Projets récents",
+    "subtitle": "Plus de 20 ans d'expertise au service de projets d'envergure nationale et internationale",
+    "viewAll": "Voir toutes nos références"
+  },
+  "certifications": {
+    "title": "Certifications & Partenaires",
+    "opqibi": "Qualification OPQIBI 1311",
+    "jei": "Jeune Entreprise Innovante",
+    "cnrs": "Groupe de recherche Incendie CNRS",
+    "university": "Université Aix-Marseille"
+  },
+  "cta": {
+    "title": "Un projet de ventilation ou désenfumage ?",
+    "subtitle": "Notre équipe d'experts est à votre disposition pour étudier votre projet",
+    "button": "Demander un devis",
+    "phone": "Appelez-nous"
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "subtitle": "N'hésitez pas à nous contacter pour toute demande de renseignement ou de devis",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "company": "Société",
+    "subject": "Objet",
+    "message": "Message",
+    "gdpr": "J'accepte que mes données soient traitées conformément à la politique de confidentialité",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.",
+    "error": "Erreur lors de l'envoi. Veuillez réessayer.",
+    "required": "Champ obligatoire",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "hoursWeekday": "Lundi – Vendredi : 8h30 – 12h00 / 14h00 – 18h30",
+    "hoursWeekend": "Weekend : par email uniquement",
+    "sidebarIntro": "Si vous avez une question ou que vous souhaitez un renseignement, n'hésitez pas à nous contacter. Nous vous répondrons dans les plus brefs délais."
+  },
+  "about": {
+    "title": "À propos de FluidAlp",
+    "subtitle": "Un bureau d'études indépendant au service de la sécurité et de la ventilation",
+    "founderTitle": "Eric Casalé – Fondateur & Directeur technique",
+    "founderCredentials": [
+      "Ingénieur des Mines d'Alès",
+      "Docteur en mécanique des fluides",
+      "Professeur à l'Université d'Aix-Marseille (Master 2 Ingénieur de la sécurité incendie)",
+      "Membre du Groupe de recherche Incendie au CNRS depuis 2007"
+    ]
+  },
+  "tools": {
+    "title": "Nos outils",
+    "subtitle": "Des outils de pointe pour des résultats fiables",
+    "simulation": {
+      "title": "Simulation numérique",
+      "description": "Codes de mécanique des fluides, modélisation 3D et simulation d'incendie"
+    },
+    "measurements": {
+      "title": "Mesures",
+      "description": "Équipements de mesure terrain pour la validation et le contrôle"
+    }
+  },
+  "ventilationPage": {
+    "title": "Ventilation",
+    "subtitle": "Études et dimensionnement de systèmes de ventilation pour ouvrages souterrains",
+    "intro": "FluidAlp conçoit et dimensionne les systèmes de ventilation pour tous types d'ouvrages souterrains : tunnels routiers, ferroviaires, métros, parkings et centrales hydro-électriques.",
+    "services": "Nos prestations",
+    "servicesList": [
+      "Études de ventilation en phases AVP, PRO et EXE",
+      "Dimensionnement des systèmes de ventilation longitudinale et transversale",
+      "Calcul des débits d'air et des pertes de charge",
+      "Études de ventilation de désenfumage",
+      "Assistance à maîtrise d'ouvrage (AMO)",
+      "Vérification de conformité réglementaire"
+    ],
+    "applications": "Domaines d'application",
+    "applicationsList": [
+      "Tunnels routiers et autoroutiers",
+      "Tunnels ferroviaires et métros",
+      "Parkings souterrains",
+      "Centrales hydro-électriques",
+      "Voiries souterraines",
+      "Stations de métro"
+    ],
+    "methodology": "Notre approche",
+    "methodologyText": "Notre méthodologie repose sur une expertise approfondie en mécanique des fluides, combinée à des outils de simulation numérique de pointe. Chaque étude est menée avec rigueur selon les normes et réglementations en vigueur."
+  },
+  "fireSafetyPage": {
+    "title": "Sécurité incendie",
+    "subtitle": "Études de désenfumage et simulations d'incendie pour ouvrages souterrains",
+    "intro": "FluidAlp réalise des études de sécurité incendie complètes, incluant le désenfumage, la simulation d'incendie et l'évacuation des personnes dans les espaces confinés.",
+    "services": "Nos prestations",
+    "servicesList": [
+      "Études de désenfumage mécanique et naturel",
+      "Simulations numériques d'incendie (CFD)",
+      "Études d'évacuation des personnes",
+      "Analyse des scénarios d'incendie",
+      "Assistance à la mise en conformité",
+      "Dossiers de sécurité incendie"
+    ],
+    "applications": "Domaines d'application",
+    "applicationsList": [
+      "Tunnels routiers (circulaire interministérielle 2000-63)",
+      "ERP souterrains (réglementation ERP)",
+      "Installations classées ICPE",
+      "Stations de métro et gares souterraines",
+      "Parkings couverts",
+      "Sites industriels"
+    ],
+    "methodology": "Notre approche",
+    "methodologyText": "Nos études s'appuient sur des simulations CFD avancées permettant de modéliser le développement d'un incendie, la propagation des fumées et les conditions d'évacuation. Cette approche scientifique garantit des résultats fiables et optimisés."
+  },
+  "pollutionThermalPage": {
+    "title": "Pollution & Thermique",
+    "subtitle": "Études de dispersion de polluants et analyses thermiques en environnement confiné",
+    "intro": "FluidAlp réalise des études de qualité de l'air et d'ambiance thermique pour les espaces confinés, les portails de tunnels et les environnements industriels.",
+    "services": "Nos prestations",
+    "servicesList": [
+      "Études de dispersion de polluants aux portails de tunnels",
+      "Modélisation de la qualité de l'air intérieur",
+      "Analyses thermiques en milieu confiné",
+      "Études d'impact environnemental",
+      "Dimensionnement des systèmes de traitement d'air",
+      "Mesures de concentration de polluants"
+    ],
+    "applications": "Domaines d'application",
+    "applicationsList": [
+      "Portails de tunnels routiers",
+      "Trémies et voiries souterraines",
+      "Centrales hydro-électriques",
+      "Sites industriels confinés",
+      "Parking souterrains ventilés",
+      "Environnement urbain sensible"
+    ],
+    "methodology": "Notre approche",
+    "methodologyText": "Nos études combinent des mesures in situ et des simulations numériques 3D pour caractériser la dispersion des polluants et les champs thermiques. Cette double approche permet de valider nos modèles et de proposer des solutions optimisées."
+  },
+  "simulationPage": {
+    "title": "Simulation numérique",
+    "subtitle": "Modélisation CFD et simulation d'incendie pour l'analyse fine des écoulements",
+    "intro": "FluidAlp utilise des codes de mécanique des fluides de pointe pour simuler les écoulements d'air, la propagation des fumées et les transferts thermiques dans les ouvrages souterrains.",
+    "softwareTitle": "Nos outils logiciels",
+    "softwareList": [
+      {
+        "name": "FDS (Fire Dynamics Simulator)",
+        "description": "Code de simulation d'incendie développé par le NIST, référence mondiale pour la modélisation de la dynamique du feu et de la propagation des fumées."
+      },
+      {
+        "name": "OpenFOAM",
+        "description": "Suite CFD open-source pour la simulation des écoulements complexes, la turbulence et les transferts thermiques."
+      },
+      {
+        "name": "Codes propriétaires",
+        "description": "Outils développés en interne pour le dimensionnement rapide des systèmes de ventilation et le calcul des pertes de charge."
+      }
+    ],
+    "capabilities": "Capacités de simulation",
+    "capabilitiesList": [
+      "Modélisation 3D des écoulements d'air en régime permanent et transitoire",
+      "Simulation de développement et propagation d'incendie",
+      "Étude de la stratification des fumées",
+      "Analyse de la visibilité et des conditions d'évacuation",
+      "Calcul des champs de température et de vitesse",
+      "Modélisation de la dispersion de polluants"
+    ]
+  },
+  "measurementsPage": {
+    "title": "Mesures",
+    "subtitle": "Campagnes de mesures terrain pour la validation et le contrôle",
+    "intro": "FluidAlp réalise des campagnes de mesures sur site pour valider les études théoriques, vérifier les performances des installations et assurer la conformité réglementaire.",
+    "equipmentTitle": "Nos équipements",
+    "equipmentList": [
+      {
+        "name": "Anémomètres",
+        "description": "Mesure des vitesses d'air et des débits dans les conduits et les ouvrages souterrains."
+      },
+      {
+        "name": "Analyseurs de gaz",
+        "description": "Détection et quantification des concentrations de polluants (CO, NO2, particules)."
+      },
+      {
+        "name": "Capteurs de température",
+        "description": "Cartographie thermique et suivi des ambiances dans les espaces confinés."
+      },
+      {
+        "name": "Générateurs de fumée",
+        "description": "Visualisation des écoulements d'air et vérification des systèmes de désenfumage."
+      }
+    ],
+    "servicesTitle": "Types de mesures",
+    "servicesList": [
+      "Mesures de débit d'air et de vitesse en conduit",
+      "Cartographies aérauliques dans les ouvrages",
+      "Mesures de concentration de polluants",
+      "Essais de désenfumage",
+      "Mesures de pression différentielle",
+      "Contrôle des installations de ventilation"
+    ]
+  },
+  "projects": {
+    "title": "Nos références",
+    "subtitle": "Des projets d'envergure en France et à l'international",
+    "filterAll": "Tous",
+    "filterERP": "ERP",
+    "filterTunnels": "Tunnels",
+    "filterIndustrial": "Industriel",
+    "viewProject": "Voir le projet",
+    "noProjects": "Aucun projet dans cette catégorie.",
+    "backToProjects": "Retour aux références",
+    "client": "Client",
+    "year": "Année",
+    "category": "Catégorie",
+    "tags": "Domaines",
+    "description": "Description du projet",
+    "categoryLabels": {
+      "tunnels": "Tunnels",
+      "erp": "ERP",
+      "industrial": "Établissements industriels"
+    }
+  },
+  "projectDetails": {
+    "gfc-stade-velodrome": {
+      "title": "GFC Construction – Stade Vélodrome",
+      "description": "Stade Vélodrome à Marseille : compléments aux études du désenfumage des voies de service intérieures."
+    },
+    "bouygues-pitie-salpetriere": {
+      "title": "Bouygues – Pitié Salpêtrière",
+      "description": "BEH Pôle endocrinologie Pitié Salpêtrière : étude aéraulique et mesure de dispersion des polluants."
+    },
+    "artelia-musee-marseille": {
+      "title": "Artelia – Musée d'histoire de Marseille",
+      "description": "Étude de désenfumage du Musée d'histoire de Marseille."
+    },
+    "tunnel-prado-carenage-ventilation": {
+      "title": "Tunnel du Prado-Carénage – Ventilation",
+      "description": "Suivi de la conception et du développement des automatismes de gestion de la ventilation mécanique pour le désenfumage de l'ouvrage Prado Carénage."
+    },
+    "tunnel-prado-carenage-incendie": {
+      "title": "Tunnel du Prado-Carénage – Incendie",
+      "description": "Simulations numériques de l'incendie dans le cadre des études spécifiques de dangers."
+    },
+    "tunnels-grand-lyon": {
+      "title": "Tunnels du Grand Lyon",
+      "description": "Assistance à maîtrise d'ouvrage pour des opérations liées aux tunnels routiers du Grand Lyon : rénovation lourde du Tunnel de la Croix Rousse, études, calculs et essais de ventilation, expertises de désenfumage du tunnel de Caluire, essais de désenfumage dans les tunnels de la Croix Rousse et sous Fourvière."
+    },
+    "rtm-metro-marseille": {
+      "title": "RTM – Métro de Marseille",
+      "description": "Marché relatif aux prestations d'essais de validation des scénarios de ventilation des lignes 1 et 2 du métro de Marseille. Réalisation d'essais de ventilation pour qualifier et valider les nouvelles séquences des scénarios issues des études de simulations unidimensionnelles et tridimensionnelles."
+    },
+    "yvroud-ratp": {
+      "title": "Yvroud – RATP",
+      "description": "RATP : études aérauliques d'un ensemble de puits de ventilation du métro de Paris."
+    },
+    "xelis-ligne-12": {
+      "title": "Xelis – Prolongement de la Ligne 12",
+      "description": "Métro parisien : expertise du désenfumage du prolongement de la Ligne 12, phase 2."
+    },
+    "artelia-metro-marseille": {
+      "title": "Artelia – Métro de Marseille",
+      "description": "Prolongement de la ligne 2 du métro de Marseille : modélisation numérique de désenfumage d'un Pôle d'échange."
+    },
+    "egis-wukun-expressway": {
+      "title": "Egis International – Wukun Expressway (Chine)",
+      "description": "« The Wukun Expressway project » en Chine : expertise sur les installations liées à la sécurité des tunnels."
+    },
+    "egis-rail-prado-sud": {
+      "title": "Egis Rail – Tunnel Prado Sud",
+      "description": "Tunnel Prado-Sud : analyse des dossiers et des études d'exécution produits par le groupement dans le domaine des équipements de ventilation mécanique."
+    },
+    "colas-rail-tunnels-ferroviaires": {
+      "title": "Colas Rail – Tunnels ferroviaires",
+      "description": "Étude de la ventilation de chantier de plusieurs tunnels ferroviaires : tunnels des Janots, de la Nerthe, de la Mulatière, de Cimiez et de Rolleboise."
+    },
+    "sempariseine-halles": {
+      "title": "SemPariSeine – Voirie souterraine des Halles, Paris 1er",
+      "description": "Simulations aérauliques du système de ventilation mécanique et de désenfumage de la voirie souterraine des Halles. Modélisation 1D du tunnel et de son système de ventilation/désenfumage de type transversale durant la phase des travaux. Modélisation et étude des scénarios de désenfumage durant la phase des travaux, ainsi que les conditions minimales d'exploitation."
+    },
+    "efectis-bure-montaigre": {
+      "title": "Efectis Outlabs – Tunnels de Bure et Montaigre (Suisse)",
+      "description": "Assistance à la réalisation d'essais aérauliques dans les tunnels de Bure et du bois de Montaigre."
+    },
+    "edf-centrale-hydroelectrique": {
+      "title": "EDF – Centrales hydro-électriques",
+      "description": "Étude de ventilation et désenfumage des centrales hydro-électriques Gavet, de la Coche et de la centrale du Lac noir."
+    },
+    "stucky-veytaux": {
+      "title": "Stucky – Centrale Veytaux (Suisse)",
+      "description": "Étude et dimensionnement du dispositif de ventilation mécanique et désenfumage de la nouvelle centrale Veytaux 2, avec impact sur l'exploitation de Veytaux 1."
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "message": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "editor": "Éditeur du site",
+    "editorText": "FluidAlp SARL au capital de 7 500 € – Immeuble \"La Brava\", 5 Allée François Cochat, 74230 Thônes, France – SIREN : 482 424 611 – SIRET : 482 424 611 00036 – RCS Annecy – Code NAF : 7112B (Ingénierie, études techniques) – TVA intracommunautaire : FR89482424611 – Gérante : Catherine Casalé",
+    "director": "Directeur de la publication",
+    "directorText": "Catherine Casalé, en qualité de gérante de la société FluidAlp SARL",
+    "hosting": "Hébergement",
+    "hostingText": "IT Bubbly",
+    "ip": "Propriété intellectuelle",
+    "ipText": "L'ensemble du contenu de ce site (textes, images, logos) est la propriété exclusive de FluidAlp SARL. Toute reproduction, même partielle, est interdite sans autorisation préalable.",
+    "liability": "Responsabilité",
+    "liabilityText": "FluidAlp s'efforce d'assurer l'exactitude des informations publiées sur ce site, mais ne saurait être tenu responsable des erreurs ou omissions."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "FluidAlp s'engage à protéger la vie privée des visiteurs de son site internet.",
+    "dataCollection": "Collecte des données",
+    "dataCollectionText": "Nous collectons uniquement les données personnelles que vous nous transmettez volontairement via le formulaire de contact : nom, email, téléphone, société et message.",
+    "dataUse": "Utilisation des données",
+    "dataUseText": "Vos données sont utilisées exclusivement pour répondre à votre demande de contact. Elles ne sont ni vendues, ni partagées avec des tiers.",
+    "dataRetention": "Conservation des données",
+    "dataRetentionText": "Vos données sont conservées pendant une durée maximale de 3 ans à compter de votre dernier contact.",
+    "rights": "Vos droits",
+    "rightsText": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Pour exercer ces droits, contactez-nous à fluidalp@fluidalp.fr.",
+    "cookies": "Cookies",
+    "cookiesText": "Ce site n'utilise aucun cookie de suivi ni de publicité. Seuls des cookies techniques essentiels au fonctionnement du site sont utilisés."
+  },
+  "footer": {
+    "description": "Bureau d'études indépendant spécialisé en ventilation et sécurité incendie pour les espaces confinés.",
+    "navigation": "Navigation",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "copyright": "FluidAlp. Tous droits réservés."
+  }
+}

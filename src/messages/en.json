@@ -1,0 +1,416 @@
+{
+  "metadata": {
+    "title": "FluidAlp – Ventilation & Fire Safety Engineering",
+    "description": "Expert ventilation, smoke extraction and fire safety engineering for tunnels, metros and confined spaces. Thônes, French Alps."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "ventilation": "Ventilation",
+    "fireSafety": "Fire Safety",
+    "pollutionThermal": "Pollution & Thermal",
+    "tools": "Tools",
+    "numericalSimulation": "Numerical Simulation",
+    "measurements": "Measurements",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slides": [
+      {
+        "title": "Welcome to FluidAlp",
+        "subtitle": "Research, development and engineering in ventilation and fire safety for confined spaces",
+        "cta": "Discover our expertise",
+        "ctaHref": "/expertises"
+      },
+      {
+        "title": "Innovative technical solutions",
+        "subtitle": "Combining efficiency with reduced investment and operating costs",
+        "cta": "Our tools",
+        "ctaHref": "/outils"
+      },
+      {
+        "title": "International-scale projects",
+        "subtitle": "France, Switzerland, China, India, Spain, Portugal, Greece — over 20 years of expertise",
+        "cta": "Our references",
+        "ctaHref": "/references"
+      }
+    ],
+    "cta_secondary": "Contact us"
+  },
+  "featureCards": {
+    "whoWeAre": {
+      "subtitle": "FluidAlp",
+      "title": "Who we are",
+      "text": "Founded in 2005 by Eric Casalé, FluidAravis — now FluidAlp — specialises in research & development, engineering studies and consulting in ventilation and fire safety for confined spaces."
+    },
+    "skills": {
+      "subtitle": "FluidAlp",
+      "title": "Expertise",
+      "text": "Versatility combined with competence across ventilation, fire safety, pollution and thermal engineering — that is what makes FluidAlp a truly unique firm."
+    },
+    "references": {
+      "subtitle": "FluidAlp",
+      "title": "References",
+      "text": "Over the years FluidAlp has contributed to numerous large-scale projects, bringing its full expertise to bear. Visit our References pages for more details."
+    },
+    "partners": {
+      "subtitle": "FluidAlp",
+      "title": "Our partners",
+      "text": "For many years FluidAlp has worked with loyal partners and clients who are convinced by our technical skills and experience."
+    }
+  },
+  "companyIntro": "FluidAlp is an independent engineering consultancy specialising in ventilation and fire safety for all confined spaces such as tunnels, metros, hydroelectric plants and underground roads. In close collaboration with Aix-Marseille University, FluidAlp offers innovative technical solutions that combine efficiency with reduced investment and operating costs.",
+  "stats": {
+    "years": "years of experience",
+    "projects": "completed projects",
+    "countries": "countries",
+    "certified": "OPQIBI Certified"
+  },
+  "expertises": {
+    "title": "Our areas of expertise",
+    "subtitle": "Unique know-how in ventilation and fire safety for confined spaces",
+    "ventilation": {
+      "title": "Ventilation",
+      "description": "Design and engineering of ventilation systems for road and rail tunnels, metros and underground car parks."
+    },
+    "fireSafety": {
+      "title": "Fire Safety",
+      "description": "Smoke extraction studies, fire simulations and compliance assistance for underground structures."
+    },
+    "pollutionThermal": {
+      "title": "Pollution & Thermal",
+      "description": "Pollutant dispersion studies and thermal analysis in confined spaces and industrial environments."
+    },
+    "learnMore": "Learn more"
+  },
+  "recentProjects": {
+    "title": "Recent projects",
+    "subtitle": "Over 20 years of expertise serving major national and international projects",
+    "viewAll": "View all projects"
+  },
+  "certifications": {
+    "title": "Certifications & Partners",
+    "opqibi": "OPQIBI 1311 Qualification",
+    "jei": "Innovative Young Company",
+    "cnrs": "CNRS Fire Research Group",
+    "university": "Aix-Marseille University"
+  },
+  "cta": {
+    "title": "Have a ventilation or smoke extraction project?",
+    "subtitle": "Our team of experts is at your disposal to study your project",
+    "button": "Request a quote",
+    "phone": "Call us"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Do not hesitate to contact us for any information or quote request",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "subject": "Subject",
+    "message": "Message",
+    "gdpr": "I agree that my data will be processed in accordance with the privacy policy",
+    "submit": "Send message",
+    "success": "Message sent successfully! We will get back to you shortly.",
+    "error": "Error sending message. Please try again.",
+    "required": "Required field",
+    "address": "Address",
+    "hours": "Office hours",
+    "hoursWeekday": "Monday – Friday: 8:30 AM – 12:00 PM / 2:00 PM – 6:30 PM",
+    "hoursWeekend": "Weekend: email only",
+    "sidebarIntro": "If you have a question or need information, do not hesitate to contact us. We will respond as quickly as possible."
+  },
+  "about": {
+    "title": "About FluidAlp",
+    "subtitle": "An independent engineering consultancy dedicated to safety and ventilation",
+    "founderTitle": "Eric Casalé – Founder & Technical Director",
+    "founderCredentials": [
+      "Mining Engineer (École des Mines d'Alès)",
+      "PhD in Fluid Mechanics",
+      "Professor at Aix-Marseille University (MSc Fire Safety Engineering)",
+      "Member of the CNRS Fire Research Group since 2007"
+    ]
+  },
+  "tools": {
+    "title": "Our tools",
+    "subtitle": "State-of-the-art tools for reliable results",
+    "simulation": {
+      "title": "Numerical Simulation",
+      "description": "Computational fluid dynamics codes, 3D modelling and fire simulation"
+    },
+    "measurements": {
+      "title": "Measurements",
+      "description": "Field measurement equipment for validation and monitoring"
+    }
+  },
+  "ventilationPage": {
+    "title": "Ventilation",
+    "subtitle": "Design and engineering of ventilation systems for underground structures",
+    "intro": "FluidAlp designs and engineers ventilation systems for all types of underground structures: road and rail tunnels, metros, car parks and hydroelectric power plants.",
+    "services": "Our services",
+    "servicesList": [
+      "Ventilation studies at preliminary, detailed and execution design stages",
+      "Sizing of longitudinal and transverse ventilation systems",
+      "Airflow and pressure drop calculations",
+      "Smoke extraction ventilation studies",
+      "Owner's representative assistance",
+      "Regulatory compliance verification"
+    ],
+    "applications": "Areas of application",
+    "applicationsList": [
+      "Road and motorway tunnels",
+      "Rail tunnels and metros",
+      "Underground car parks",
+      "Hydroelectric power plants",
+      "Underground roads",
+      "Metro stations"
+    ],
+    "methodology": "Our approach",
+    "methodologyText": "Our methodology is based on deep expertise in fluid mechanics, combined with state-of-the-art numerical simulation tools. Each study is conducted rigorously in accordance with current standards and regulations."
+  },
+  "fireSafetyPage": {
+    "title": "Fire Safety",
+    "subtitle": "Smoke extraction studies and fire simulations for underground structures",
+    "intro": "FluidAlp carries out comprehensive fire safety studies, including smoke extraction, fire simulation and evacuation analysis in confined spaces.",
+    "services": "Our services",
+    "servicesList": [
+      "Mechanical and natural smoke extraction studies",
+      "Computational fire simulations (CFD)",
+      "Evacuation studies",
+      "Fire scenario analysis",
+      "Compliance assistance",
+      "Fire safety documentation"
+    ],
+    "applications": "Areas of application",
+    "applicationsList": [
+      "Road tunnels (French inter-ministerial circular 2000-63)",
+      "Underground public buildings (ERP regulations)",
+      "Classified installations (ICPE)",
+      "Metro stations and underground railway stations",
+      "Covered car parks",
+      "Industrial sites"
+    ],
+    "methodology": "Our approach",
+    "methodologyText": "Our studies rely on advanced CFD simulations to model fire development, smoke propagation and evacuation conditions. This scientific approach guarantees reliable and optimised results."
+  },
+  "pollutionThermalPage": {
+    "title": "Pollution & Thermal",
+    "subtitle": "Pollutant dispersion studies and thermal analysis in confined environments",
+    "intro": "FluidAlp carries out air quality and thermal environment studies for confined spaces, tunnel portals and industrial environments.",
+    "services": "Our services",
+    "servicesList": [
+      "Pollutant dispersion studies at tunnel portals",
+      "Indoor air quality modelling",
+      "Thermal analysis in confined environments",
+      "Environmental impact studies",
+      "Air treatment system sizing",
+      "Pollutant concentration measurements"
+    ],
+    "applications": "Areas of application",
+    "applicationsList": [
+      "Road tunnel portals",
+      "Cut-and-cover tunnels and underground roads",
+      "Hydroelectric power plants",
+      "Confined industrial sites",
+      "Ventilated underground car parks",
+      "Sensitive urban environments"
+    ],
+    "methodology": "Our approach",
+    "methodologyText": "Our studies combine in-situ measurements and 3D numerical simulations to characterise pollutant dispersion and thermal fields. This dual approach validates our models and delivers optimised solutions."
+  },
+  "simulationPage": {
+    "title": "Numerical Simulation",
+    "subtitle": "CFD modelling and fire simulation for detailed flow analysis",
+    "intro": "FluidAlp uses state-of-the-art computational fluid dynamics codes to simulate airflows, smoke propagation and heat transfer in underground structures.",
+    "softwareTitle": "Our software tools",
+    "softwareList": [
+      {
+        "name": "FDS (Fire Dynamics Simulator)",
+        "description": "Fire simulation code developed by NIST, the world reference for modelling fire dynamics and smoke propagation."
+      },
+      {
+        "name": "OpenFOAM",
+        "description": "Open-source CFD suite for complex flow simulation, turbulence and heat transfer."
+      },
+      {
+        "name": "Proprietary codes",
+        "description": "In-house tools for rapid ventilation system sizing and pressure drop calculations."
+      }
+    ],
+    "capabilities": "Simulation capabilities",
+    "capabilitiesList": [
+      "3D airflow modelling in steady-state and transient regimes",
+      "Fire development and propagation simulation",
+      "Smoke stratification analysis",
+      "Visibility and evacuation condition analysis",
+      "Temperature and velocity field calculations",
+      "Pollutant dispersion modelling"
+    ]
+  },
+  "measurementsPage": {
+    "title": "Measurements",
+    "subtitle": "Field measurement campaigns for validation and monitoring",
+    "intro": "FluidAlp conducts on-site measurement campaigns to validate theoretical studies, verify installation performance and ensure regulatory compliance.",
+    "equipmentTitle": "Our equipment",
+    "equipmentList": [
+      {
+        "name": "Anemometers",
+        "description": "Air velocity and flow rate measurement in ducts and underground structures."
+      },
+      {
+        "name": "Gas analysers",
+        "description": "Detection and quantification of pollutant concentrations (CO, NO2, particles)."
+      },
+      {
+        "name": "Temperature sensors",
+        "description": "Thermal mapping and environment monitoring in confined spaces."
+      },
+      {
+        "name": "Smoke generators",
+        "description": "Airflow visualisation and smoke extraction system verification."
+      }
+    ],
+    "servicesTitle": "Types of measurements",
+    "servicesList": [
+      "Duct airflow and velocity measurements",
+      "Aeraulic mapping in structures",
+      "Pollutant concentration measurements",
+      "Smoke extraction tests",
+      "Differential pressure measurements",
+      "Ventilation system inspections"
+    ]
+  },
+  "projects": {
+    "title": "Our projects",
+    "subtitle": "Major projects in France and internationally",
+    "filterAll": "All",
+    "filterERP": "Public buildings",
+    "filterTunnels": "Tunnels",
+    "filterIndustrial": "Industrial",
+    "viewProject": "View project",
+    "noProjects": "No projects in this category.",
+    "backToProjects": "Back to projects",
+    "client": "Client",
+    "year": "Year",
+    "category": "Category",
+    "tags": "Fields",
+    "description": "Project description",
+    "categoryLabels": {
+      "tunnels": "Tunnels",
+      "erp": "Public buildings (ERP)",
+      "industrial": "Industrial facilities"
+    }
+  },
+  "projectDetails": {
+    "gfc-stade-velodrome": {
+      "title": "GFC Construction – Stade Vélodrome",
+      "description": "Stade Vélodrome in Marseille: complementary smoke extraction studies for the interior service routes."
+    },
+    "bouygues-pitie-salpetriere": {
+      "title": "Bouygues – Pitié Salpêtrière",
+      "description": "BEH Endocrinology Unit at Pitié Salpêtrière: aeraulic study and pollutant dispersion measurement."
+    },
+    "artelia-musee-marseille": {
+      "title": "Artelia – Marseille History Museum",
+      "description": "Smoke extraction study for the Marseille History Museum."
+    },
+    "tunnel-prado-carenage-ventilation": {
+      "title": "Prado-Carénage Tunnel – Ventilation",
+      "description": "Monitoring the design and development of mechanical ventilation management automation for smoke extraction at the Prado Carénage structure."
+    },
+    "tunnel-prado-carenage-incendie": {
+      "title": "Prado-Carénage Tunnel – Fire",
+      "description": "Numerical fire simulations as part of specific hazard studies."
+    },
+    "tunnels-grand-lyon": {
+      "title": "Greater Lyon Tunnels",
+      "description": "Owner's representative assistance for operations related to Greater Lyon road tunnels: major renovation of the Croix Rousse Tunnel, ventilation studies, calculations and tests, smoke extraction assessments for the Caluire tunnel, smoke extraction tests in the Croix Rousse and Fourvière tunnels."
+    },
+    "rtm-metro-marseille": {
+      "title": "RTM – Marseille Metro",
+      "description": "Contract for ventilation scenario validation testing on lines 1 and 2 of the Marseille metro. Ventilation tests to qualify and validate new scenario sequences derived from one-dimensional and three-dimensional simulation studies."
+    },
+    "yvroud-ratp": {
+      "title": "Yvroud – RATP",
+      "description": "RATP: aeraulic studies of a set of ventilation shafts in the Paris metro."
+    },
+    "xelis-ligne-12": {
+      "title": "Xelis – Line 12 Extension",
+      "description": "Paris metro: smoke extraction assessment for the Line 12 extension, phase 2."
+    },
+    "artelia-metro-marseille": {
+      "title": "Artelia – Marseille Metro",
+      "description": "Extension of Marseille metro line 2: numerical smoke extraction modelling for an interchange hub."
+    },
+    "egis-wukun-expressway": {
+      "title": "Egis International – Wukun Expressway (China)",
+      "description": "The Wukun Expressway project in China: assessment of tunnel safety installations."
+    },
+    "egis-rail-prado-sud": {
+      "title": "Egis Rail – Prado Sud Tunnel",
+      "description": "Prado-Sud Tunnel: review of execution study documents and files produced by the consortium in the field of mechanical ventilation equipment."
+    },
+    "colas-rail-tunnels-ferroviaires": {
+      "title": "Colas Rail – Railway Tunnels",
+      "description": "Construction site ventilation study for several railway tunnels: Janots, Nerthe, Mulatière, Cimiez and Rolleboise tunnels."
+    },
+    "sempariseine-halles": {
+      "title": "SemPariSeine – Les Halles Underground Road, Paris",
+      "description": "Aeraulic simulations of the mechanical ventilation and smoke extraction system for the Les Halles underground road. 1D modelling of the tunnel and its transverse ventilation/smoke extraction system during the construction phase. Modelling and study of smoke extraction scenarios during construction, including minimum operating conditions."
+    },
+    "efectis-bure-montaigre": {
+      "title": "Efectis Outlabs – Bure & Montaigre Tunnels (Switzerland)",
+      "description": "Assistance with aeraulic testing in the Bure and Bois de Montaigre tunnels."
+    },
+    "edf-centrale-hydroelectrique": {
+      "title": "EDF – Hydroelectric Plants",
+      "description": "Ventilation and smoke extraction study for the Gavet, La Coche and Lac Noir hydroelectric power plants."
+    },
+    "stucky-veytaux": {
+      "title": "Stucky – Veytaux Power Plant (Switzerland)",
+      "description": "Design and sizing of the mechanical ventilation and smoke extraction system for the new Veytaux 2 power plant, including impact on the operation of Veytaux 1."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "Sorry, the page you are looking for does not exist or has been moved.",
+    "backHome": "Back to home"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "editor": "Website publisher",
+    "editorText": "FluidAlp SARL with a share capital of €7,500 – Immeuble \"La Brava\", 5 Allée François Cochat, 74230 Thônes, France – SIREN: 482 424 611 – SIRET: 482 424 611 00036 – RCS Annecy – NAF code: 7112B (Engineering, technical studies) – EU VAT: FR89482424611 – Manager: Catherine Casalé",
+    "director": "Publication director",
+    "directorText": "Catherine Casalé, as manager of FluidAlp SARL",
+    "hosting": "Hosting",
+    "hostingText": "IT Bubbly",
+    "ip": "Intellectual property",
+    "ipText": "All content on this website (text, images, logos) is the exclusive property of FluidAlp SARL. Any reproduction, even partial, is prohibited without prior authorisation.",
+    "liability": "Liability",
+    "liabilityText": "FluidAlp endeavours to ensure the accuracy of the information published on this website, but cannot be held responsible for any errors or omissions."
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "intro": "FluidAlp is committed to protecting the privacy of its website visitors.",
+    "dataCollection": "Data collection",
+    "dataCollectionText": "We only collect personal data that you voluntarily submit through the contact form: name, email, phone, company and message.",
+    "dataUse": "Data use",
+    "dataUseText": "Your data is used exclusively to respond to your contact request. It is neither sold nor shared with third parties.",
+    "dataRetention": "Data retention",
+    "dataRetentionText": "Your data is retained for a maximum of 3 years from your last contact.",
+    "rights": "Your rights",
+    "rightsText": "In accordance with GDPR, you have the right to access, rectify, delete and port your data. To exercise these rights, contact us at fluidalp@fluidalp.fr.",
+    "cookies": "Cookies",
+    "cookiesText": "This website does not use any tracking or advertising cookies. Only essential technical cookies required for the website to function are used."
+  },
+  "footer": {
+    "description": "Independent engineering consultancy specialised in ventilation and fire safety for confined spaces.",
+    "navigation": "Navigation",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "copyright": "FluidAlp. All rights reserved."
+  }
+}

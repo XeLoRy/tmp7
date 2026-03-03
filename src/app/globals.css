@@ -1,26 +1,34 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* FluidAlp brand colors (from logo) */
+  --color-teal: #5a9a9a;
+  --color-teal-dark: #3d7a7a;
+  --color-teal-light: #7ec8c8;
+  --color-teal-50: #f0fafa;
+  --color-gold: #a07820;
+  --color-orange: #e8952c;
+  --color-orange-light: #f0a94d;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Neutrals */
+  --color-neutral-50: #f8fafa;
+  --color-neutral-100: #f0f5f5;
+  --color-neutral-200: #dce5e5;
+  --color-neutral-400: #8a9a9a;
+  --color-neutral-600: #475555;
+  --color-neutral-800: #1e2f2f;
+  --color-neutral-900: #0f1a1a;
+
+  /* Font */
+  --font-sans: var(--font-inter);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-neutral-50);
+  color: var(--color-neutral-800);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
