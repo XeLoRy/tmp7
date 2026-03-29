@@ -33,7 +33,7 @@ export default function VentilationPage() {
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-6">
           <FadeIn>
-            <p className="text-lg text-neutral-600 max-w-4xl leading-relaxed">
+            <p className="text-lg text-neutral-600 max-w-4xl mx-auto leading-relaxed">
               {t('intro')}
             </p>
           </FadeIn>
@@ -76,7 +76,7 @@ export default function VentilationPage() {
         <div className="mx-auto max-w-7xl px-6">
           <FadeIn>
             <h2 className="text-2xl font-bold text-neutral-800 mb-4">{t('methodology')}</h2>
-            <p className="text-neutral-600 max-w-4xl leading-relaxed">
+            <p className="text-neutral-600 max-w-4xl mx-auto leading-relaxed">
               {t('methodologyText')}
             </p>
           </FadeIn>

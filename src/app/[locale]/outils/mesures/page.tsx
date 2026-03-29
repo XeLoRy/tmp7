@@ -1,8 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { FadeIn } from '@/components/animations';
+import { ImageLightbox } from '@/components/ImageLightbox';
 import { ContactCTA } from '@/components/sections/ContactCTA';
 
 export default function MeasurementsPage() {
@@ -35,20 +35,18 @@ export default function MeasurementsPage() {
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-6">
           <FadeIn>
-            <p className="text-lg text-neutral-600 max-w-4xl leading-relaxed">
+            <p className="text-lg text-neutral-600 max-w-4xl mx-auto leading-relaxed">
               {t('intro')}
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
-            <div className="mt-10 relative aspect-[16/9] max-w-4xl rounded-xl overflow-hidden bg-neutral-200">
-              <Image
-                src="/images/projects/essais-soufflerie-luminy.webp"
-                alt={t('windTunnelAlt')}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <p className="mt-3 text-sm text-neutral-500 italic">{t('windTunnelCaption')}</p>
+            <ImageLightbox
+              src="/images/projects/essais-soufflerie-luminy.webp"
+              alt={t('windTunnelAlt')}
+              caption={t('windTunnelCaption')}
+              className="mt-10 max-w-4xl mx-auto"
+              aspectClassName="aspect-[16/9]"
+            />
           </FadeIn>
         </div>
       </section>
