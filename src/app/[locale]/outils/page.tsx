@@ -25,16 +25,16 @@ export default function ToolsOverviewPage() {
   return (
     <>
       <section className="bg-teal-dark py-20">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h1 className="text-4xl font-bold text-white">{t('title')}</h1>
-            <p className="mt-4 text-xl text-white/80 max-w-3xl">{t('subtitle')}</p>
+            <p className="mt-4 text-xl text-white/80">{t('subtitle')}</p>
           </FadeIn>
         </div>
       </section>
 
       <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {toolPages.map((tool, i) => (
               <FadeIn key={tool.key} delay={i * 0.15}>

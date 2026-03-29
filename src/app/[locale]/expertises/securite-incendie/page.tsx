@@ -21,18 +21,18 @@ export default function FireSafetyPage() {
   return (
     <>
       <section className="bg-orange py-20">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h1 className="text-4xl font-bold text-white">{t('title')}</h1>
-            <p className="mt-4 text-xl text-white/80 max-w-3xl">{t('subtitle')}</p>
+            <p className="mt-4 text-xl text-white/80">{t('subtitle')}</p>
           </FadeIn>
         </div>
       </section>
 
       <section className="py-16">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
-            <p className="text-lg text-neutral-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg text-neutral-600 leading-relaxed">
               {t('intro')}
             </p>
           </FadeIn>
@@ -41,7 +41,7 @@ export default function FireSafetyPage() {
               src="/images/projects/feu-maquette-tgv-cstb.webp"
               alt={t('fireTestAlt')}
               caption={t('fireTestCaption')}
-              className="mt-10 max-w-4xl mx-auto"
+              className="mt-10"
               aspectClassName="aspect-[16/9]"
             />
           </FadeIn>
@@ -49,7 +49,7 @@ export default function FireSafetyPage() {
       </section>
 
       <section className="bg-neutral-50 py-16">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <FadeIn>
               <h2 className="text-2xl font-bold text-neutral-800 mb-6">{t('services')}</h2>
@@ -79,10 +79,10 @@ export default function FireSafetyPage() {
       </section>
 
       <section className="py-16">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h2 className="text-2xl font-bold text-neutral-800 mb-4">{t('methodology')}</h2>
-            <p className="text-neutral-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-neutral-600 leading-relaxed">
               {t('methodologyText')}
             </p>
           </FadeIn>

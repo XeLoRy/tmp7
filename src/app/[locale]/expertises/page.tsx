@@ -11,10 +11,10 @@ export default function ExpertisesOverviewPage() {
   return (
     <>
       <section className="bg-teal py-20">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h1 className="text-4xl font-bold text-white">{t('title')}</h1>
-            <p className="mt-4 text-xl text-white/80 max-w-3xl">{t('subtitle')}</p>
+            <p className="mt-4 text-xl text-white/80">{t('subtitle')}</p>
           </FadeIn>
         </div>
       </section>

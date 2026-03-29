@@ -23,27 +23,26 @@ export default function SimulationPage() {
   return (
     <>
       <section className="bg-teal py-20">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h1 className="text-4xl font-bold text-white">{t('title')}</h1>
-            <p className="mt-4 text-xl text-white/80 max-w-3xl">{t('subtitle')}</p>
+            <p className="mt-4 text-xl text-white/80">{t('subtitle')}</p>
           </FadeIn>
         </div>
       </section>
 
       <section className="py-16">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
-            <p className="text-lg text-neutral-600 max-w-4xl leading-relaxed">
+            <p className="text-lg text-neutral-600 leading-relaxed">
               {t('intro')}
             </p>
           </FadeIn>
         </div>
       </section>
 
-      {/* Software tools */}
       <section className="bg-neutral-50 py-16">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h2 className="text-2xl font-bold text-neutral-800 mb-8">{t('softwareTitle')}</h2>
           </FadeIn>
@@ -60,9 +59,8 @@ export default function SimulationPage() {
         </div>
       </section>
 
-      {/* Capabilities */}
       <section className="py-16">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeIn>
             <h2 className="text-2xl font-bold text-neutral-800 mb-6">{t('capabilities')}</h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
