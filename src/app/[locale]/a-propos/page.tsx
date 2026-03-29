@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
-import Image from 'next/image';
 import { FadeIn } from '@/components/animations';
+import { ImageLightbox } from '@/components/ImageLightbox';
 import type { Metadata } from 'next';
 
 type Props = {
@@ -21,7 +21,6 @@ export default async function AboutPage({ params }: Props) {
     <article className="py-16 md:py-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          {/* Title flows directly into content */}
           <header className="mb-8">
             <h1 className="text-3xl md:text-4xl font-bold text-neutral-800">
               {t('title')}
@@ -31,27 +30,18 @@ export default async function AboutPage({ params }: Props) {
             </p>
           </header>
 
-          {/* Lead paragraph — larger, bolder */}
-          <p className="text-xl text-neutral-800 leading-relaxed font-medium">
+          <p className="text-xl text-neutral-800 leading-relaxed font-medium mb-6">
             {t('description.0')}
           </p>
         </FadeIn>
 
-        {/* Image floats into the text flow */}
         <FadeIn delay={0.15}>
-          <figure className="my-8 lg:float-right lg:ml-8 lg:mb-4 lg:w-[45%]">
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-neutral-100">
-              <Image
-                src="/images/about/amu-research.webp"
-                alt={t('researchCaption')}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <figcaption className="mt-2 text-sm text-neutral-400 italic">
-              {t('researchCaption')}
-            </figcaption>
-          </figure>
+          <ImageLightbox
+            src="/images/about/amu-research.webp"
+            alt={t('researchCaption')}
+            caption={t('researchCaption')}
+            className="my-6 lg:float-right lg:ml-8 lg:mb-4 lg:w-[45%]"
+          />
         </FadeIn>
 
         <FadeIn delay={0.2}>
