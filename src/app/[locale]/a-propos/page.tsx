@@ -17,13 +17,6 @@ export default async function AboutPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'about' });
 
-  const credentials = [
-    t('founderCredentials.0'),
-    t('founderCredentials.1'),
-    t('founderCredentials.2'),
-    t('founderCredentials.3'),
-  ];
-
   return (
     <div className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,57 +29,39 @@ export default async function AboutPage({ params }: Props) {
           </p>
         </FadeIn>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        {/* First paragraph + image side by side */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <FadeIn>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-neutral-200">
-              <Image
-                src="/images/team/eric-casale.webp"
-                alt="Eric Casalé - Fondateur FluidAlp"
-                fill
-                className="object-cover"
-              />
-            </div>
+            <p className="text-neutral-700 text-lg leading-relaxed">
+              {t('description.0')}
+            </p>
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">
-              {t('founderTitle')}
-            </h2>
-            <ul className="space-y-4">
-              {credentials.map((credential, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="mt-1.5 h-2 w-2 rounded-full bg-teal flex-shrink-0" />
-                  <span className="text-neutral-600">{credential}</span>
-                </li>
-              ))}
-            </ul>
-
-            <div className="mt-8 space-y-4">
-              {[0, 1, 2, 3].map((i) => (
-                <p key={i} className="text-neutral-600 leading-relaxed">
-                  {t(`description.${i}`)}
-                </p>
-              ))}
-            </div>
-          </FadeIn>
-        </div>
-
-        {/* Research / University link */}
-        <FadeIn delay={0.3}>
-          <div className="mt-16">
-            <div className="relative aspect-[16/9] rounded-xl overflow-hidden bg-neutral-200">
+            <div className="relative aspect-[16/10] rounded-xl overflow-hidden bg-neutral-200">
               <Image
                 src="/images/about/amu-research.webp"
-                alt="Laboratoire de recherche - Université d'Aix-Marseille"
+                alt={t('researchCaption')}
                 fill
                 className="object-cover"
               />
             </div>
-            <p className="mt-4 text-sm text-neutral-500 italic">
+            <p className="mt-3 text-sm text-neutral-500 italic">
               {t('researchCaption')}
             </p>
-          </div>
-        </FadeIn>
+          </FadeIn>
+        </div>
+
+        {/* Remaining paragraphs */}
+        <div className="mt-16 max-w-4xl space-y-6">
+          {[1, 2, 3].map((i) => (
+            <FadeIn key={i} delay={i * 0.1}>
+              <p className="text-neutral-600 leading-relaxed">
+                {t(`description.${i}`)}
+              </p>
+            </FadeIn>
+          ))}
+        </div>
       </div>
     </div>
   );
