@@ -132,7 +132,14 @@
       "Docteur en mécanique des fluides",
       "Professeur à l'Université d'Aix-Marseille (Master 2 Ingénieur de la sécurité incendie)",
       "Membre du Groupe de recherche Incendie au CNRS depuis 2007"
-    ]
+    ],
+    "description": [
+      "La société FluidAlp est spécialisée dans les domaines de la ventilation mécanique et de la maîtrise du mouvement des fumées en situation d'incendie.",
+      "Elle développe une approche performantielle de l'ingénierie de la sécurité incendie. Celle-ci est fondée sur une démarche qui intègre, ajuste (et complète éventuellement) les dispositions réglementaires en vigueur. Le résultat impose des règles et des prescriptions de mise en œuvre précises et rigoureuses. Cette démarche a été développée dans les tunnels (routiers et ferroviaires) et les ERP. Elle repose sur une connaissance approfondie du comportement des fumées (couplage entre les effets de ventilation locaux et les écoulements gravitaires). Elle permet de définir la performance souhaitée (stratification, confinement longitudinal des fumées) et d'élaborer ensuite les stratégies d'évacuation et de mise à l'abri du public.",
+      "L'objectif de cette démarche est d'améliorer le désenfumage des ouvrages neufs ou existants en adaptant l'utilisation des systèmes de ventilation existants et en proposant des solutions constructives de protections passives.",
+      "La méthode performantielle repose sur un lien permanent entre FluidAlp et la recherche (présence à l'Université d'Aix Marseille). Elles s'appuient également sur un développement de modèles numériques intégrés dans un logiciel unique (FluidAlp-xD), interfacé avec les codes reconnus (Fire Dynamics Simulator, CFast). Elles sont complétées par les enseignements tirés de nombreux essais et observations réalisés sur site, avant mise en service des systèmes (essais de ventilation, d'enfumage ou d'incendie)."
+    ],
+    "researchCaption": "Laboratoire de recherche — Université d'Aix-Marseille (2025)"
   },
   "tools": {
     "title": "Nos outils",
@@ -175,6 +182,8 @@
     "title": "Sécurité incendie",
     "subtitle": "Études de désenfumage et simulations d'incendie pour ouvrages souterrains",
     "intro": "FluidAlp réalise des études de sécurité incendie complètes, incluant le désenfumage, la simulation d'incendie et l'évacuation des personnes dans les espaces confinés.",
+    "fireTestAlt": "Essai incendie sur maquette TGV au CSTB (2005)",
+    "fireTestCaption": "2005 — Essai incendie sur maquette TGV : influence de la vitesse de ventilation sur le comportement des fumées (CSTB).",
     "services": "Nos prestations",
     "servicesList": [
       "Études de désenfumage mécanique et naturel",
@@ -254,6 +263,8 @@
     "title": "Mesures",
     "subtitle": "Campagnes de mesures terrain pour la validation et le contrôle",
     "intro": "FluidAlp réalise des campagnes de mesures sur site pour valider les études théoriques, vérifier les performances des installations et assurer la conformité réglementaire.",
+    "windTunnelAlt": "Essais en soufflerie au campus de Luminy (2005)",
+    "windTunnelCaption": "2005 — Essais en soufflerie au campus de Luminy, Marseille.",
     "equipmentTitle": "Nos équipements",
     "equipmentList": [
       {
@@ -372,6 +383,22 @@
     "stucky-veytaux": {
       "title": "Stucky – Centrale Veytaux (Suisse)",
       "description": "Étude et dimensionnement du dispositif de ventilation mécanique et désenfumage de la nouvelle centrale Veytaux 2, avec impact sur l'exploitation de Veytaux 1."
+    },
+    "tunnel-talant": {
+      "title": "Tunnel de Talant",
+      "description": "Essais aérauliques et campagnes de mesures de ventilation dans le tunnel de Talant."
+    },
+    "tramway-lusail": {
+      "title": "Tramway Lusail (Qatar)",
+      "description": "Études de ventilation et de désenfumage des stations souterraines du tramway de Lusail, Qatar."
+    },
+    "metro-st-charles": {
+      "title": "Métro St Charles – Marseille",
+      "description": "Essais de désenfumage de la station de métro St Charles (Métro 1, Marseille). Campagne de mesures et validation des systèmes de ventilation."
+    },
+    "tunnel-antony": {
+      "title": "Tunnel d'Antony",
+      "description": "Essais aérauliques et campagnes de mesures de ventilation dans le tunnel d'Antony (DIRIF)."
     }
   },
   "notFound": {

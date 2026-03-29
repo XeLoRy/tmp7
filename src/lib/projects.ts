@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: 'tunnels-grand-lyon',
-    image: '/images/projects/tunnel-smoke-extraction.webp',
+    image: '/images/projects/tunnel-croix-rousse-1.webp',
     category: 'tunnels',
     year: '2009–2014',
     client: 'Communauté urbaine de Lyon',
@@ -132,6 +132,39 @@ export const PROJECTS: Project[] = [
     year: '2014',
     client: 'Efectis Outlabs Ventilation',
     tags: ['essais-aerauliques'],
+  },
+
+  {
+    slug: 'tunnel-talant',
+    image: '/images/projects/tunnel-talant.webp',
+    category: 'tunnels',
+    year: '2014',
+    client: 'DIR Centre-Est',
+    tags: ['ventilation', 'essais-aerauliques'],
+  },
+  {
+    slug: 'tramway-lusail',
+    image: '/images/projects/tramway-lusail.webp',
+    category: 'tunnels',
+    year: '2019',
+    client: 'Qatar Rail',
+    tags: ['ventilation', 'international'],
+  },
+  {
+    slug: 'metro-st-charles',
+    image: '/images/projects/st-charles-1.webp',
+    category: 'erp',
+    year: '2023',
+    client: 'RTM Marseille',
+    tags: ['desenfumage', 'essais-aerauliques'],
+  },
+  {
+    slug: 'tunnel-antony',
+    image: '/images/projects/tunnel-antony.webp',
+    category: 'tunnels',
+    year: '2023',
+    client: 'DIRIF',
+    tags: ['ventilation', 'essais-aerauliques'],
   },
 
   // === INDUSTRIAL (2 projects) ===

@@ -132,7 +132,14 @@
       "PhD in Fluid Mechanics",
       "Professor at Aix-Marseille University (MSc Fire Safety Engineering)",
       "Member of the CNRS Fire Research Group since 2007"
-    ]
+    ],
+    "description": [
+      "FluidAlp specializes in mechanical ventilation and smoke movement control in fire situations.",
+      "The company develops a performance-based approach to fire safety engineering. This approach is founded on a methodology that integrates, adjusts (and where necessary complements) current regulatory provisions. The result imposes precise and rigorous implementation rules and specifications. This methodology was developed for tunnels (road and rail) and public buildings (ERP). It relies on an in-depth understanding of smoke behavior (coupling between local ventilation effects and gravity-driven flows). It enables the definition of desired performance (stratification, longitudinal smoke confinement) and the subsequent development of evacuation and public sheltering strategies.",
+      "The objective of this approach is to improve smoke extraction in new or existing structures by adapting the use of existing ventilation systems and proposing constructive passive protection solutions.",
+      "The performance-based method relies on a permanent link between FluidAlp and research (presence at Aix-Marseille University). It also draws on the development of numerical models integrated into a unique software platform (FluidAlp-xD), interfaced with recognized codes (Fire Dynamics Simulator, CFast). These are complemented by lessons learned from numerous tests and observations carried out on site, prior to system commissioning (ventilation, smoke, or fire tests)."
+    ],
+    "researchCaption": "Research laboratory — Aix-Marseille University (2025)"
   },
   "tools": {
     "title": "Our tools",
@@ -175,6 +182,8 @@
     "title": "Fire Safety",
     "subtitle": "Smoke extraction studies and fire simulations for underground structures",
     "intro": "FluidAlp carries out comprehensive fire safety studies, including smoke extraction, fire simulation and evacuation analysis in confined spaces.",
+    "fireTestAlt": "Fire test on TGV model at CSTB (2005)",
+    "fireTestCaption": "2005 — Fire test on TGV model: influence of ventilation speed on smoke behavior (CSTB).",
     "services": "Our services",
     "servicesList": [
       "Mechanical and natural smoke extraction studies",
@@ -254,6 +263,8 @@
     "title": "Measurements",
     "subtitle": "Field measurement campaigns for validation and monitoring",
     "intro": "FluidAlp conducts on-site measurement campaigns to validate theoretical studies, verify installation performance and ensure regulatory compliance.",
+    "windTunnelAlt": "Wind tunnel tests at Luminy campus (2005)",
+    "windTunnelCaption": "2005 — Wind tunnel tests at the Luminy campus, Marseille.",
     "equipmentTitle": "Our equipment",
     "equipmentList": [
       {
@@ -372,6 +383,22 @@
     "stucky-veytaux": {
       "title": "Stucky – Veytaux Power Plant (Switzerland)",
       "description": "Design and sizing of the mechanical ventilation and smoke extraction system for the new Veytaux 2 power plant, including impact on the operation of Veytaux 1."
+    },
+    "tunnel-talant": {
+      "title": "Talant Tunnel",
+      "description": "Aeraulic tests and ventilation measurement campaigns in the Talant tunnel."
+    },
+    "tramway-lusail": {
+      "title": "Lusail Tramway (Qatar)",
+      "description": "Ventilation and smoke extraction studies for the underground stations of the Lusail tramway, Qatar."
+    },
+    "metro-st-charles": {
+      "title": "St Charles Metro – Marseille",
+      "description": "Smoke extraction tests at St Charles metro station (Metro Line 1, Marseille). Measurement campaign and ventilation system validation."
+    },
+    "tunnel-antony": {
+      "title": "Antony Tunnel",
+      "description": "Aeraulic tests and ventilation measurement campaigns in the Antony tunnel (DIRIF)."
     }
   },
   "notFound": {

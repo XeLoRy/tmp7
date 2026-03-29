@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import { FadeIn } from '@/components/animations';
@@ -14,8 +13,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: t('title') };
 }
 
-function AboutContent() {
-  const t = useTranslations('about');
+export default async function AboutPage({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'about' });
 
   const credentials = [
     t('founderCredentials.0'),
@@ -61,29 +61,33 @@ function AboutContent() {
               ))}
             </ul>
 
-            <div className="mt-8 p-6 bg-teal-50 rounded-xl">
-              <p className="text-neutral-800 leading-relaxed">
-                Fondée en 2005, FluidAlp (anciennement FluidAravis) est un bureau d&apos;études
-                indépendant spécialisé dans la ventilation et la sécurité incendie dans les espaces
-                confinés. Labellisée Jeune Entreprise Innovante, la société a obtenu la qualification
-                OPQIBI en 2010 dans le domaine des études de ventilation et de désenfumage mécaniques.
-              </p>
-            </div>
-
-            <div className="mt-8 p-6 bg-white rounded-xl shadow-sm">
-              <h3 className="font-semibold text-neutral-800 mb-3">Projets à l&apos;international</h3>
-              <p className="text-neutral-600">
-                France, Suisse, Chine, Inde, Espagne, Portugal, Grèce...
-                FluidAlp intervient sur des projets d&apos;envergure à l&apos;échelle mondiale.
-              </p>
+            <div className="mt-8 space-y-4">
+              {[0, 1, 2, 3].map((i) => (
+                <p key={i} className="text-neutral-600 leading-relaxed">
+                  {t(`description.${i}`)}
+                </p>
+              ))}
             </div>
           </FadeIn>
         </div>
+
+        {/* Research / University link */}
+        <FadeIn delay={0.3}>
+          <div className="mt-16">
+            <div className="relative aspect-[16/9] rounded-xl overflow-hidden bg-neutral-200">
+              <Image
+                src="/images/about/amu-research.webp"
+                alt="Laboratoire de recherche - Université d'Aix-Marseille"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <p className="mt-4 text-sm text-neutral-500 italic">
+              {t('researchCaption')}
+            </p>
+          </div>
+        </FadeIn>
       </div>
     </div>
   );
-}
-
-export default function AboutPage() {
-  return <AboutContent />;
 }

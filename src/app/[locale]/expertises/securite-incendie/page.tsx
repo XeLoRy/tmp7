@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 import { FadeIn } from '@/components/animations';
 import { ContactCTA } from '@/components/sections/ContactCTA';
 
@@ -34,6 +35,17 @@ export default function FireSafetyPage() {
             <p className="text-lg text-neutral-600 max-w-4xl leading-relaxed">
               {t('intro')}
             </p>
+          </FadeIn>
+          <FadeIn delay={0.2}>
+            <div className="mt-10 relative aspect-[16/9] max-w-4xl rounded-xl overflow-hidden bg-neutral-200">
+              <Image
+                src="/images/projects/feu-maquette-tgv-cstb.webp"
+                alt={t('fireTestAlt')}
+                fill
+                className="object-cover"
+              />
+            </div>
+            <p className="mt-3 text-sm text-neutral-500 italic">{t('fireTestCaption')}</p>
           </FadeIn>
         </div>
       </section>
